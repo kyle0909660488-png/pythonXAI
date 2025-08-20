@@ -86,14 +86,14 @@ print(L)  # 顯示剩下的元素
 
 # 範例（傳統方式）：先手動 open，讀取後必須 close
 f = open(
-    "pages\\class1-1.py", "r", encoding="utf-8"
+    "pages//class1-1.py", "r", encoding="utf-8"
 )  # 開啟檔案（注意 Windows 路徑的反斜線）
 content = f.read()  # 讀取整個檔案內容
 print(content)  # 印出檔案內容
 f.close()  # 關閉檔案，釋放系統資源
 
 # 範例（推薦方式）：使用 with 會自動關閉檔案
-with open("pages\\class1-1.py", "r", encoding="utf-8") as f:
+with open("pages//class1-1.py", "r", encoding="utf-8") as f:
     content = f.read()
     print(content)  # 印出內容
 # 不需要顯式呼叫 f.close()，with 會自動幫你關檔
