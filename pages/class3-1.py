@@ -93,3 +93,9 @@ st.write(f"ans={st.session_state.ans}")  # 顯示 session_state 中的 ans 值
 # 可以使用 st.rerun() 強制重新執行整個 script 以刷新畫面
 if st.button("重新整理畫面", key="banana"):
     st.rerun()
+
+st.write("---")
+st.title("文字輸入元件")
+# st.text_input指令格式：st.text_input(輸入欄位的標題,value="預設顯示文字")
+text = st.text_input("請輸入文字", value="這是預設文字")
+st.write(f"你輸入的文字是 {text}")
