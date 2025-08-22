@@ -15,7 +15,7 @@ all_pages = {
         st.Page("pages/class2-2.py", title="成績評分", icon="🖊️"),
         st.Page("pages/class2-4.py", title="數字金字塔", icon="🔺"),
         st.Page("pages/class3-1.py", title="columns 與 session_state", icon="📂"),
-        st.Page("pages/class3-2.py", title="點餐機", icon="🤖"),
+        st.Page("pages/class3-2.py", title="點餐機", icon="🍔"),
         st.Page("pages/class3-5.py", title="猜數字遊戲", icon="🎮"),
         st.Page("pages/class4-2.py", title="圖片練習", icon="🖼️"),
         st.Page("pages/class4-3.py", title="購物平台", icon="🏬"),
