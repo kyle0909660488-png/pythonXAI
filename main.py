@@ -6,7 +6,7 @@ st.set_page_config(page_title="Python XAI", page_icon="🐍")
 # 選單內容 - 要加新課程就改這裡
 # 在每個標題都要根據內容性質加上, emojis, 這樣看起來更有趣
 all_pages = {
-    "🏠 導覽": [
+    "": [
         st.Page("pages/home.py", title="首頁", icon="🏠"),
         st.Page("pages/handbook.py", title="課程筆記", icon="📖"),
     ],
